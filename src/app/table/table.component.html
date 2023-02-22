@@ -1,0 +1,32 @@
+<div class="container text-center" *ngFor='let tabla of table'>
+    <div class="row row-cols-3">
+        <div class="col">
+            <div class= "card">
+                <div class="card-body">
+                    <img src="{{tabla.image}}" class="card-img-top" alt="...">
+                    <h5 class="card-title">{{ tabla.model }}</h5>
+                    <p>{{ tabla.type }}</p>
+                    <p>{{tabla.roles}}</p>
+                    <p>{{tabla.year_built}}</p>
+                    <p>{{tabla.home_port}}</p>
+                    <p>{{tabla.launches}}</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- <img src="{{tabla.image}}" class="card-img-top" alt="...">
+<h5 class="card-title">{{ tabla.model }}</h5>
+<p>{{ tabla.type }}</p>
+<p>{{tabla.roles}}</p>
+<p>{{tabla.year_built}}</p>
+<p>{{tabla.home_port}}</p>
+<p>{{tabla.launches}}</p> -->
